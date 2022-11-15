@@ -1,3 +1,4 @@
+#--------------------------------------------------------
 """
 szam = 0
 while szam != 100:
@@ -14,17 +15,28 @@ while szam != 103:
 print("program vége!")
 """
 #--------------------------------------------------------
-Páros
+"""
+szam = 1
+while szam <= 100:
+    if szam % 2 == 1:
+        print(szam)
+        szam += 2
+"""
+#--------------------------------------------------------
 """
 szam = 0
-while szam != 102:
-    print(szam)
-    szam = szam + 2
-print("program vége!")
+while szam <= 100:
+    if szam % 2 == 0:
+        print(szam)
+        szam += 2
 """
 #--------------------------------------------------------
-Páratlan
+"""
+s = "házi feladat"
+hossz = len(s)
+szamlalo = 0
+while szamlalo <hossz:
+    print(s[szamlalo], end="")
+    szamlalo = szamlalo + 1
+"""
 #--------------------------------------------------------
-Házi feladat kiírása while utasítás segítségével
-szo = "Házi feladat"
-while szo != 1:

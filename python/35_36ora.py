@@ -41,7 +41,7 @@ def osszegzo(list):
 szamok = [3, 5, 19, 11, 17, 1]
 osszegzo(szamok)
 """
-
+"""
 def kepernyore_ir():
 	lokalis_valtozo = 'alma'
 	print(lokalis_valtozo)
@@ -54,3 +54,22 @@ kepernyore_ir()
 print(globalis_valtozo)
 # a lokalis_valtozo az eljáráson KÍVŰL nem elérhető !!!
 print(lokalis_valtozo)  # hibát eredményez !!!
+"""
+
+# a szélsőérték  meghatározása esetében azt vizsgáljuk hogy melyik a legkisebb, illetve a legnagyobb érték az adatsorban (itt a listában)
+
+lista = [12, 5, 4, 8, 9, 11, 12, 6]
+
+def min_10c():
+    min = lista[0]
+    max = lista[0]
+    for szam in lista:
+        if szam < min:
+            min = szam
+        if szam > max:
+            max = szam
+
+    print('A legkisebb szám a listaban: ', min)
+    print('A legnagyobb szám a listaban: ', max)
+
+min_10c()

@@ -1,5 +1,5 @@
-#The ord() function returns the number representing the unicode code of a specified character.
-#The chr() function returns the character that represents the specified unicode.
+#Az ord() függvény a megadott karakter unicode kódját jelentő számot adja vissza.
+#A chr() függvény visszaadja a megadott unicode kódot jelentő karaktert.
 
 lista1 = [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]
 
